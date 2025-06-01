@@ -1,0 +1,93 @@
+$flaticon_construction-font: "flaticon_construction";
+
+@font-face {
+    font-family: $flaticon_construction-font;
+    src: url("./flaticon_construction.ttf?370a7d15c8c31646038387f10aa1cdc7") format("truetype"),
+url("./flaticon_construction.woff?370a7d15c8c31646038387f10aa1cdc7") format("woff"),
+url("./flaticon_construction.woff2?370a7d15c8c31646038387f10aa1cdc7") format("woff2"),
+url("./flaticon_construction.eot?370a7d15c8c31646038387f10aa1cdc7#iefix") format("embedded-opentype"),
+url("./flaticon_construction.svg?370a7d15c8c31646038387f10aa1cdc7#flaticon_construction") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_construction !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_construction-map: (
+    "award": "\f101",
+    "lighting": "\f102",
+    "pumpjack": "\f103",
+    "bioengineering": "\f104",
+    "pistons": "\f105",
+    "engineer": "\f106",
+    "save-time": "\f107",
+    "case-study": "\f108",
+    "placeholder": "\f109",
+    "power-button": "\f10a",
+    "phone": "\f10b",
+    "certificate": "\f10c",
+    "research": "\f10d",
+    "work-time": "\f10e",
+    "electrical-panel": "\f10f",
+    "costumer": "\f110",
+    "order": "\f111",
+);
+
+.flaticon-award:before {
+    content: map-get($flaticon_construction-map, "award");
+}
+.flaticon-lighting:before {
+    content: map-get($flaticon_construction-map, "lighting");
+}
+.flaticon-pumpjack:before {
+    content: map-get($flaticon_construction-map, "pumpjack");
+}
+.flaticon-bioengineering:before {
+    content: map-get($flaticon_construction-map, "bioengineering");
+}
+.flaticon-pistons:before {
+    content: map-get($flaticon_construction-map, "pistons");
+}
+.flaticon-engineer:before {
+    content: map-get($flaticon_construction-map, "engineer");
+}
+.flaticon-save-time:before {
+    content: map-get($flaticon_construction-map, "save-time");
+}
+.flaticon-case-study:before {
+    content: map-get($flaticon_construction-map, "case-study");
+}
+.flaticon-placeholder:before {
+    content: map-get($flaticon_construction-map, "placeholder");
+}
+.flaticon-power-button:before {
+    content: map-get($flaticon_construction-map, "power-button");
+}
+.flaticon-phone:before {
+    content: map-get($flaticon_construction-map, "phone");
+}
+.flaticon-certificate:before {
+    content: map-get($flaticon_construction-map, "certificate");
+}
+.flaticon-research:before {
+    content: map-get($flaticon_construction-map, "research");
+}
+.flaticon-work-time:before {
+    content: map-get($flaticon_construction-map, "work-time");
+}
+.flaticon-electrical-panel:before {
+    content: map-get($flaticon_construction-map, "electrical-panel");
+}
+.flaticon-costumer:before {
+    content: map-get($flaticon_construction-map, "costumer");
+}
+.flaticon-order:before {
+    content: map-get($flaticon_construction-map, "order");
+}
